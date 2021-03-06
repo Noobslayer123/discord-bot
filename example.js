@@ -7,5 +7,5 @@ client.on('message', async message => {
 message.content = message.content.toLowerCase()
 //code
   
-  execute(message)
+  execute(prefix, message)
 })
